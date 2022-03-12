@@ -4,13 +4,16 @@ published: true
 ---
 
 <div class="posts">
+  <ul>
 
-  <span>{{ page.date }}</span>
   {% for post in site.posts %}
+    <li>
     <article class="post">
 
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
               
     </article>
+    </li>
   {% endfor %}
+  </ul>
 </div>

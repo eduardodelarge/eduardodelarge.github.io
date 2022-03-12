@@ -7,13 +7,12 @@ published: true
   <ul>
 
   {% for post in site.posts %}
-    <li>
     <article class="post">
-
+      
+      <li>{{ page.date | date: "%B %e, %Y" }}</li>
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
               
     </article>
-    </li>
   {% endfor %}
   </ul>
 </div>

@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #b9b9b9;
+  color: #ededed
   font-weight: bold;
 
   line-height: 1.7;
@@ -251,11 +251,13 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  color: #ededed
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
+  color: #ededed
 }
 
 .post {

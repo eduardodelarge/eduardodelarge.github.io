@@ -53,19 +53,22 @@ h1 {
 
 h2 {
   font-size: 24px;
+  color: #ededed
 }
 
 h3 {
   font-size: 20px;
+  color: #ededed
 }
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #ededed
 }
 
 p {
   margin: 15px 0;
+  color: #ededed
 }
 
 a {
@@ -260,7 +263,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: #ededed
     font-size: 22px;
     font-style: italic;
   }
